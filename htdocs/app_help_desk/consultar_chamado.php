@@ -2,7 +2,7 @@
 
   //array de chamados
   $chamados = [];
-  $arquivo = fopen("chamados.hd", "r");
+  $arquivo = fopen("../../app_help_desk/chamados.hd", "r");
   //percorre arquivo e adiciona os chamados ao array
   while(!feof($arquivo)) {
 
